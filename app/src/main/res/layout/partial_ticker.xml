@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ticker_height"
+        android:background="@android:color/holo_blue_light"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ticker_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ticker_text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/ticker_height"
+        android:background="@android:color/holo_red_dark"
+        android:gravity="center_vertical"
+        android:paddingStart="@dimen/margin"
+        android:paddingEnd="@dimen/margin"
+        android:textColor="@android:color/white"
+        tools:text="@string/ticker_news" />
+
+</RelativeLayout>

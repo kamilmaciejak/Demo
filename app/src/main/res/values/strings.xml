@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Demo</string>
+    <string name="ticker_news">News</string>
+    <string name="ticker_breaking_news">Breaking News</string>
+</resources>
